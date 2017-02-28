@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plateau>
+  <Case Type="Case">
+    <NomCase>Départ</NomCase>
+    <Prix>0</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Belcier</NomCase>
+    <Prix>60</Prix>
+    <Couleur>Marron</Couleur>
+    <LoyerTerrain>
+      <Nu>2</Nu>
+      <M1>10</M1>
+      <M2>30</M2>
+      <M3>90</M3>
+      <M4>160</M4>
+      <H>250</H>
+    </LoyerTerrain>
+    <Hypotheque>30</Hypotheque>
+    <PrixMaison>50</PrixMaison>
+    <PrixHotel>50</PrixHotel>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Caisse de Communauté</NomCase>
+    <Prix>0</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Bassins à flots</NomCase>
+    <Prix>60</Prix>
+    <Couleur>Marron</Couleur>
+    <LoyerTerrain>
+      <Nu>4</Nu>
+      <M1>20</M1>
+      <M2>60</M2>
+      <M3>180</M3>
+      <M4>320</M4>
+      <H>450</H>
+    </LoyerTerrain>
+    <Hypotheque>30</Hypotheque>
+    <PrixMaison>50</PrixMaison>
+    <PrixHotel>50</PrixHotel>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Impôts sur le revenu</NomCase>
+    <Prix>200</Prix>
+  </Case>
+  <Case Type="Gare">
+    <NomCase>Les vélos Vcub</NomCase>
+    <Prix>200</Prix>
+    <LoyerGare>
+      <G1>25</G1>
+      <G2>50</G2>
+      <G3>100</G3>
+      <G4>200</G4>
+    </LoyerGare>
+    <Hypotheque>100</Hypotheque>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Le Lac</NomCase>
+    <Prix>100</Prix>
+    <Couleur>Ciel</Couleur>
+    <LoyerTerrain>
+      <Nu>6</Nu>
+      <M1>30</M1>
+      <M2>90</M2>
+      <M3>270</M3>
+      <M4>400</M4>
+      <H>550</H>
+    </LoyerTerrain>
+    <Hypotheque>50</Hypotheque>
+    <PrixMaison>50</PrixMaison>
+    <PrixHotel>50</PrixHotel>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Chance</NomCase>
+    <Prix>0</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Saint Michel</NomCase>
+    <Prix>100</Prix>
+    <Couleur>Ciel</Couleur>
+    <LoyerTerrain>
+      <Nu>6</Nu>
+      <M1>30</M1>
+      <M2>90</M2>
+      <M3>270</M3>
+      <M4>400</M4>
+      <H>550</H>
+    </LoyerTerrain>
+    <Hypotheque>50</Hypotheque>
+    <PrixMaison>50</PrixMaison>
+    <PrixHotel>50</PrixHotel>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Place de la Victoire</NomCase>
+    <Prix>120</Prix>
+    <Couleur>Ciel</Couleur>
+    <LoyerTerrain>
+      <Nu>8</Nu>
+      <M1>40</M1>
+      <M2>100</M2>
+      <M3>300</M3>
+      <M4>450</M4>
+      <H>600</H>
+    </LoyerTerrain>
+    <Hypotheque>60</Hypotheque>
+    <PrixMaison>50</PrixMaison>
+    <PrixHotel>50</PrixHotel>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Prison</NomCase>
+    <Prix>50</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>La Bastide</NomCase>
+    <Prix>140</Prix>
+    <Couleur>Violet</Couleur>
+    <LoyerTerrain>
+      <Nu>10</Nu>
+      <M1>50</M1>
+      <M2>150</M2>
+      <M3>450</M3>
+      <M4>625</M4>
+      <H>750</H>
+    </LoyerTerrain>
+    <Hypotheque>70</Hypotheque>
+    <PrixMaison>100</PrixMaison>
+    <PrixHotel>100</PrixHotel>
+  </Case>
+  <Case Type="ServicePublic">
+    <NomCase>Compagnie de distribution d’électricité</NomCase>
+    <Prix>150</Prix>
+    <LoyerService>
+      <S1>4</S1>
+      <S2>10</S2>
+    </LoyerService>
+    <Hypotheque>75</Hypotheque>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Cours Victor Hugo</NomCase>
+    <Prix>140</Prix>
+    <Couleur>Violet</Couleur>
+    <LoyerTerrain>
+      <Nu>10</Nu>
+      <M1>50</M1>
+      <M2>150</M2>
+      <M3>450</M3>
+      <M4>625</M4>
+      <H>750</H>
+    </LoyerTerrain>
+    <Hypotheque>70</Hypotheque>
+    <PrixMaison>100</PrixMaison>
+    <PrixHotel>100</PrixHotel>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Sainte Croix</NomCase>
+    <Prix>160</Prix>
+    <Couleur>Violet</Couleur>
+    <LoyerTerrain>
+      <Nu>12</Nu>
+      <M1>60</M1>
+      <M2>180</M2>
+      <M3>500</M3>
+      <M4>700</M4>
+      <H>900</H>
+    </LoyerTerrain>
+    <Hypotheque>80</Hypotheque>
+    <PrixMaison>100</PrixMaison>
+    <PrixHotel>100</PrixHotel>
+  </Case>
+  <Case Type="Gare">
+    <NomCase>Gare Saint-Jean</NomCase>
+    <Prix>200</Prix>
+    <LoyerGare>
+      <G1>25</G1>
+      <G2>50</G2>
+      <G3>100</G3>
+      <G4>200</G4>
+    </LoyerGare>
+    <Hypotheque>100</Hypotheque>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Nansouty</NomCase>
+    <Prix>180</Prix>
+    <Couleur>Orange</Couleur>
+    <LoyerTerrain>
+      <Nu>14</Nu>
+      <M1>70</M1>
+      <M2>200</M2>
+      <M3>550</M3>
+      <M4>750</M4>
+      <H>950</H>
+    </LoyerTerrain>
+    <Hypotheque>90</Hypotheque>
+    <PrixMaison>100</PrixMaison>
+    <PrixHotel>100</PrixHotel>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Caisse de Communauté</NomCase>
+    <Prix>0</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Rue Sainte Catherine</NomCase>
+    <Prix>180</Prix>
+    <Couleur>Orange</Couleur>
+    <LoyerTerrain>
+      <Nu>14</Nu>
+      <M1>70</M1>
+      <M2>200</M2>
+      <M3>550</M3>
+      <M4>750</M4>
+      <H>950</H>
+    </LoyerTerrain>
+    <Hypotheque>90</Hypotheque>
+    <PrixMaison>100</PrixMaison>
+    <PrixHotel>100</PrixHotel>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Meriadeck</NomCase>
+    <Prix>200</Prix>
+    <Couleur>Orange</Couleur>
+    <LoyerTerrain>
+      <Nu>16</Nu>
+      <M1>80</M1>
+      <M2>220</M2>
+      <M3>600</M3>
+      <M4>800</M4>
+      <H>1000</H>
+    </LoyerTerrain>
+    <Hypotheque>100</Hypotheque>
+    <PrixMaison>100</PrixMaison>
+    <PrixHotel>100</PrixHotel>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Parc gratuit</NomCase>
+    <Prix>0</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Place du Parlement</NomCase>
+    <Prix>220</Prix>
+    <Couleur>Rouge</Couleur>
+    <LoyerTerrain>
+      <Nu>18</Nu>
+      <M1>90</M1>
+      <M2>250</M2>
+      <M3>700</M3>
+      <M4>875</M4>
+      <H>1050</H>
+    </LoyerTerrain>
+    <Hypotheque>100</Hypotheque>
+    <PrixMaison>150</PrixMaison>
+    <PrixHotel>150</PrixHotel>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Chance</NomCase>
+    <Prix>0</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Les Chartrons</NomCase>
+    <Prix>220</Prix>
+    <Couleur>Rouge</Couleur>
+    <LoyerTerrain>
+      <Nu>18</Nu>
+      <M1>90</M1>
+      <M2>250</M2>
+      <M3>700</M3>
+      <M4>875</M4>
+      <H>1050</H>
+    </LoyerTerrain>
+    <Hypotheque>100</Hypotheque>
+    <PrixMaison>150</PrixMaison>
+    <PrixHotel>150</PrixHotel>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Place Gambetta</NomCase>
+    <Prix>240</Prix>
+    <Couleur>Rouge</Couleur>
+    <LoyerTerrain>
+      <Nu>20</Nu>
+      <M1>100</M1>
+      <M2>300</M2>
+      <M3>750</M3>
+      <M4>925</M4>
+      <H>1100</H>
+    </LoyerTerrain>
+    <Hypotheque>120</Hypotheque>
+    <PrixMaison>150</PrixMaison>
+    <PrixHotel>150</PrixHotel>
+  </Case>
+  <Case Type="Gare">
+    <NomCase>Réseau TBC</NomCase>
+    <Prix>200</Prix>
+    <LoyerGare>
+      <G1>25</G1>
+      <G2>50</G2>
+      <G3>100</G3>
+      <G4>200</G4>
+    </LoyerGare>
+    <Hypotheque>100</Hypotheque>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Place Pey-Berland</NomCase>
+    <Prix>260</Prix>
+    <Couleur>Jaune</Couleur>
+    <LoyerTerrain>
+      <Nu>22</Nu>
+      <M1>110</M1>
+      <M2>330</M2>
+      <M3>800</M3>
+      <M4>975</M4>
+      <H>1150</H>
+    </LoyerTerrain>
+    <Hypotheque>130</Hypotheque>
+    <PrixMaison>150</PrixMaison>
+    <PrixHotel>150</PrixHotel>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Cours du Chapeau Rouge</NomCase>
+    <Prix>260</Prix>
+    <Couleur>Jaune</Couleur>
+    <LoyerTerrain>
+      <Nu>22</Nu>
+      <M1>110</M1>
+      <M2>330</M2>
+      <M3>800</M3>
+      <M4>975</M4>
+      <H>1150</H>
+    </LoyerTerrain>
+    <Hypotheque>130</Hypotheque>
+    <PrixMaison>150</PrixMaison>
+    <PrixHotel>150</PrixHotel>
+  </Case>
+  <Case Type="ServicePublic">
+    <NomCase>Compagnie de distribution des eaux</NomCase>
+    <Prix>150</Prix>
+    <LoyerService>
+      <S1>4</S1>
+      <S2>10</S2>
+    </LoyerService>
+    <Hypotheque>75</Hypotheque>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Place des Quinconces</NomCase>
+    <Prix>280</Prix>
+    <Couleur>Jaune</Couleur>
+    <LoyerTerrain>
+      <Nu>24</Nu>
+      <M1>120</M1>
+      <M2>360</M2>
+      <M3>850</M3>
+      <M4>1025</M4>
+      <H>1200</H>
+    </LoyerTerrain>
+    <Hypotheque>140</Hypotheque>
+    <PrixMaison>150</PrixMaison>
+    <PrixHotel>150</PrixHotel>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Police</NomCase>
+    <Prix>0</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Cauderay</NomCase>
+    <Prix>300</Prix>
+    <Couleur>Vert</Couleur>
+    <LoyerTerrain>
+      <Nu>26</Nu>
+      <M1>130</M1>
+      <M2>390</M2>
+      <M3>900</M3>
+      <M4>1100</M4>
+      <H>1275</H>
+    </LoyerTerrain>
+    <Hypotheque>150</Hypotheque>
+    <PrixMaison>200</PrixMaison>
+    <PrixHotel>200</PrixHotel>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Rue d’Aviau</NomCase>
+    <Prix>300</Prix>
+    <Couleur>Vert</Couleur>
+    <LoyerTerrain>
+      <Nu>26</Nu>
+      <M1>130</M1>
+      <M2>390</M2>
+      <M3>900</M3>
+      <M4>1100</M4>
+      <H>1275</H>
+    </LoyerTerrain>
+    <Hypotheque>150</Hypotheque>
+    <PrixMaison>200</PrixMaison>
+    <PrixHotel>200</PrixHotel>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Caisse de Communauté</NomCase>
+    <Prix>0</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Place de la Bourse</NomCase>
+    <Prix>320</Prix>
+    <Couleur>Vert</Couleur>
+    <LoyerTerrain>
+      <Nu>26</Nu>
+      <M1>130</M1>
+      <M2>390</M2>
+      <M3>900</M3>
+      <M4>1100</M4>
+      <H>1275</H>
+    </LoyerTerrain>
+    <Hypotheque>160</Hypotheque>
+    <PrixMaison>200</PrixMaison>
+    <PrixHotel>200</PrixHotel>
+  </Case>
+  <Case Type="Gare">
+    <NomCase>Aéroport de Bordeaux</NomCase>
+    <Prix>200</Prix>
+    <LoyerGare>
+      <G1>25</G1>
+      <G2>50</G2>
+      <G3>100</G3>
+      <G4>200</G4>
+    </LoyerGare>
+    <Hypotheque>100</Hypotheque>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Chance</NomCase>
+    <Prix>0</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Les quais</NomCase>
+    <Prix>350</Prix>
+    <Couleur>Bleu</Couleur>
+    <LoyerTerrain>
+      <Nu>35</Nu>
+      <M1>175</M1>
+      <M2>500</M2>
+      <M3>1200</M3>
+      <M4>1300</M4>
+      <H>1500</H>
+    </LoyerTerrain>
+    <Hypotheque>175</Hypotheque>
+    <PrixMaison>200</PrixMaison>
+    <PrixHotel>200</PrixHotel>
+  </Case>
+  <Case Type="Case">
+    <NomCase>Taxe de Luxe</NomCase>
+    <Prix>100</Prix>
+  </Case>
+  <Case Type="Terrain">
+    <NomCase>Le triangle d’or</NomCase>
+    <Prix>400</Prix>
+    <Couleur>Bleu</Couleur>
+    <LoyerTerrain>
+      <Nu>50</Nu>
+      <M1>200</M1>
+      <M2>600</M2>
+      <M3>1400</M3>
+      <M4>1700</M4>
+      <H>2000</H>
+    </LoyerTerrain>
+    <Hypotheque>200</Hypotheque>
+    <PrixMaison>200</PrixMaison>
+    <PrixHotel>200</PrixHotel>
+  </Case>
+</Plateau>

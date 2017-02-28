@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chance>
+	<Carte>
+		<Type>Prison</Type>
+		<Description>Vous êtes libéré de prison. Cette carte peut être conservée jusqu’à ce qu’elle soit utilisée ou vendue.</Description>
+	</Carte>
+	<Carte>
+		<Type>Deplacement</Type>
+		<Description>Reculez de trois cases.</Description>
+		<Position>-3</Position>
+	</Carte>
+	<Carte>
+		<Type>Deplacement</Type>
+		<Description>Avancez jusqu’à la case Départ.</Description>
+		<Position>0</Position>
+	</Carte>
+	<Carte>
+		<Type>Deplacement</Type>
+		<Description>Allez en prison. Avancez tout droit en prison. Ne passez pas par la case Départ. Ne recevez pas 200 EUR.</Description>
+		<Position>10</Position>
+	</Carte>
+	<Carte>
+		<Type>Deplacement</Type>
+		<Description>Rendez-vous à la Rue de la Paix.</Description>
+		<Position>39</Position>
+	</Carte>
+	<Carte>
+		<Type>Deplacement</Type>
+		<Description>Allez à la gare de Lyon. Si vous passez par la case Départ recevez 200 EUR.</Description>
+		<Position>15</Position>
+	</Carte>
+	<Carte>
+		<Type>Deplacement</Type>
+		<Description>Rendez-vous à l’Avenue Henri-Martin. Si vous passez par la case Départ recevez 200 EUR.</Description>
+		<Position>24</Position>
+	</Carte>
+	<Carte>
+		<Type>Deplacement</Type>
+		<Description>Avancez au Boulevard de la Villette. Si vous passez par la case Départ recevez 200 EUR.</Description>
+		<Position>11</Position>
+	</Carte>
+	<Carte>
+		<Type>Credit</Type>
+		<Description>La Banque vous verse un dividende de 50 EUR.</Description>
+		<Montant1>50</Montant1>
+	</Carte>
+	<Carte>
+		<Type>Credit</Type>
+		<Description>Vous avez gagné le prix de mots croisés. Recevez 100 EUR.</Description>
+		<Montant1>100</Montant1>
+	</Carte>
+	<Carte>
+		<Type>Credit</Type>
+		<Description>Votre immeuble et votre prêt rapportent. Vous devez toucher 150 EUR.</Description>
+		<Montant1>150</Montant1>
+	</Carte>
+	<Carte>
+		<Type>Debit</Type>
+		<Description>Amende pour excès de vitesse : 15 EUR.</Description>
+		<Montant1>15</Montant1>
+	</Carte>
+	<Carte>
+		<Type>Debit</Type>
+		<Description>Amende pour ivresse : 20 EUR.</Description>
+		<Montant1>20</Montant1>
+	</Carte>
+	<Carte>
+		<Type>Debit</Type>
+		<Description>Payer pour frais de scolarité 150 EUR.</Description>
+		<Montant1>150</Montant1>
+	</Carte>
+	<Carte>
+		<Type>TaxeBatiment</Type>
+		<Description>Faites des réparations dans toutes vos maisons. Versez pour chaque maison 25 EUR. Versez pour chaque hôtel 100 EUR.</Description>
+		<Montant1>25</Montant1>
+		<Montant2>100</Montant2>
+	</Carte>
+	<Carte>
+		<Type>TaxeBatiment</Type>
+		<Description>Vous êtes imposé pour les réparations de voirie à raison de : 40 EUR par maison et 115 EUR par hôtel.</Description>
+		<Montant1>40</Montant1>
+		<Montant2>115</Montant2>
+	</Carte>
+</Chance>
